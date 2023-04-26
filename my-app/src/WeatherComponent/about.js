@@ -14,8 +14,10 @@ function About() {
           <Image src="https://th.bing.com/th/id/OIP.su6VVPyYSAHY8NzrwDM-CAHaEf?pid=ImgDet&rs=1" fluid />
         </Col>
         <Col md={6}>
-          <p>Hello I'm new to this developement world and trying to create some kickass project </p>
-          <p>Feel free to render here</p>
+          <p>Welcome to my application, where you can get the latest weather report, news, and access to a calendar all in one place.  </p>
+          <p>We understand the importance of staying informed about the weather, which is why we provide up-to-date weather reports so that you can plan your day accordingly. Whether it's sunny, rainy, or snowy outside, you can rely on our application to keep you informed.</p>
+<p>
+In addition to weather reports, we also provide access to the latest news headlines, ensuring that you are always aware of current events. Our application gathers news from reliable sources, so you can trust that you are getting accurate and unbiased information.</p>
         </Col>
       </Row>
     </Container>

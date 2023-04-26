@@ -8,7 +8,7 @@ import HomePage from "./WeatherComponent/homePage";
 import NewsPage from "./WeatherComponent/news";
 import About from "./WeatherComponent/about";
 import CalendarYear from "./WeatherComponent/calender";
-import WorldClock from "./WeatherComponent/worldClock";
+
 function App() {
   return (
 
@@ -19,7 +19,7 @@ function App() {
         <Route path="/news" element={<NewsPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/calendar" element={<CalendarYear />} />
-        <Route path="/clock" element={<WorldClock />} />
+
       </Routes>
     </BrowserRouter>
   );

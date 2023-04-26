@@ -25,7 +25,7 @@ function HomePage() {
   const [time, setTime] = useState("");
   const [inputbox, setInputbox] = useState("");
   useEffect(() => {
-    navigator.geolocation.getCurrentPosition(function (position) {
+    navigator.geolocation.getCurrentPosition(function (position) {   //is used to get the current position of the device.
       setLatitude(position.coords.latitude);
       setLongitude(position.coords.longitude);
     });
@@ -215,10 +215,8 @@ function HomePage() {
                     <FontAwesomeIcon icon={faSun} size="1x" color="orange" />{" "}
                     Sun Rise:{" "}
                     {list
-                      ? new Date(list.sunrise).toLocaleTimeString([], {
-                          hour: "numeric",
-                          minute: "numeric",
-                        })
+                      ? new Date(list.sunrise*1000).toLocaleTimeString(
+                        )
                       : "Loading..."}
                   </h6>
                 </Col>
@@ -227,10 +225,7 @@ function HomePage() {
                     <FontAwesomeIcon icon={faMoon} size="1x" color="orange" />{" "}
                     Sun Set:{" "}
                     {list
-                      ? new Date(list.sunset).toLocaleTimeString([], {
-                          hour: "numeric",
-                          minute: "numeric",
-                        })
+                      ? new Date(list.sunset*1000).toLocaleTimeString()
                       : "Loading..."}
                   </h6>
                 </Col>
