@@ -8,8 +8,6 @@ Weather Report: Users can enter the name of a city and fetch the current weather
 
 News Updates: Users can search for news articles on a specific topic. The application retrieves the latest news from reliable sources and displays the headlines along with a brief summary of each article.
 
-Installation
-To run the application locally, follow these steps:
 
 
 Fetching Weather Reports
